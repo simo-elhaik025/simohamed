@@ -63,7 +63,7 @@ const BirthdayPage: React.FC = () => {
               }}
             />
           ))}
-         <audio ref={bgMusic}  src="/son/happy_birthday.mp3"  preload="auto" autoPlay loop controls/>
+         <audio ref={bgMusic}  src="/son/happy_birthday.mp3"  preload="auto" autoPlay loop/>
         </div>
         
       )}
